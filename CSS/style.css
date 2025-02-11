@@ -180,7 +180,8 @@ body {
 }
 
 .home-p,
-.team-p {
+.team-p,
+.welcome-fully p {
     font-size: 14px;
 }
 
@@ -285,7 +286,6 @@ body {
 
 .welcome-fully {
     width: 28%;
-    padding: 18px 0px;
 }
 
 .fully2,
@@ -298,6 +298,7 @@ body {
     padding-top: 16px;
 }
 
+.welcome-fully,
 .welcome-fully p,
 .choose-p {
     padding: 16px 0px;
@@ -577,7 +578,9 @@ body {
     padding-top: 20px;
 }
 
-.pricing-content:hover .pricing-btn {
+.pricing-content:hover .pricing-btn,
+.welcome-fully p,
+.team-p {
     font-weight: 800;
 }
 
@@ -629,10 +632,6 @@ body {
 
 .team-h3 {
     padding: 15px 0px;
-}
-
-.team-p {
-    font-weight: 800;
 }
 
 .team-overley i {
@@ -753,7 +752,7 @@ body {
 
 .header-i-search,
 .header-ul li a,
-.welcome-fully p,
+/* .welcome-fully p, */
 .offer-con p,
 .choose-content-p,
 .news-content p,
